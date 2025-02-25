@@ -11,6 +11,14 @@ set -U fish_greeting
 
 fish_vi_key_bindings
 
+
+# Check if the local configuration directory exists and source its file
+if test -d ~/.config/fish/local
+    for file in ~/.config/fish/local/*.fish
+        source $file
+    end
+end
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /home/asmund/miniconda3/bin/conda
