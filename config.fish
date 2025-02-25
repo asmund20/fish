@@ -11,6 +11,8 @@ set -U fish_greeting
 
 fish_vi_key_bindings
 
+source aliases.fish
+
 
 # Check if the local configuration directory exists and source its file
 if test -d ~/.config/fish/local
