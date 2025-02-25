@@ -1,2 +1,3 @@
 functions/path.fish
 local/*
+fish_variables
