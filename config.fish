@@ -2,14 +2,12 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-set -U fish_greeting
+# Create file functions/path.fish with the following to configure path:
+# function path
+# set -gx PATH <directory> $PATH
+# end
 
-set -gx PATH ~/.local/share/applications/typst-x86_64-unknown-linux-musl $PATH
-set -gx PATH ~/.local/bin $PATH
-set -gx PATH ~/bin $PATH
-set -gx PATH /opt/zen $PATH
-set -gx PATH /opt/jdk-23/bin $PATH
-set -gx PATH /opt/android-studio-for-platform/bin $PATH
+set -U fish_greeting
 
 fish_vi_key_bindings
 
