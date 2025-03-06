@@ -20,3 +20,7 @@ if test -d ~/.config/fish/local
         source $file
     end
 end
+
+if test "$TERM_PROGRAM" = "ghostty"
+    set -x TERM xterm-256color
+end
