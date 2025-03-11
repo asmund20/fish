@@ -13,6 +13,9 @@ fish_vi_key_bindings
 
 source ~/.config/fish/aliases.fish
 
+# Default is that it is not remote.
+# This is overwritten in the sourcing of the local files below.
+set is_remote false
 
 # Check if the local configuration directory exists and source its file
 if test -d ~/.config/fish/local
