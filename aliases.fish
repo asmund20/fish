@@ -2,6 +2,8 @@
 alias numpy="python -i -c 'import numpy as np'"
 
 # Git stuff
+alias gpl="git pull"
+alias gph="git push"
 alias gc="git commit"
 alias gco="git checkout"
 alias gb="git branch"
