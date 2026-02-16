@@ -15,3 +15,5 @@ alias gs="git status"
 alias gst="git stash"
 
 alias e="nvim"
+
+alias copy="fish_clipboard_copy"
