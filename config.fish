@@ -24,6 +24,9 @@ if test -d ~/.config/fish/local
     end
 end
 
+# Add mason installs to path
+set -gx PATH /home/asmund/.local/share/nvim/mason/bin $PATH
+
 if test "$TERM_PROGRAM" = "ghostty"
     set -x TERM xterm-256color
 end
