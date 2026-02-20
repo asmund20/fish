@@ -17,3 +17,4 @@ alias gst="git stash"
 alias e="nvim"
 
 alias copy="fish_clipboard_copy"
+alias paste="fish_clipboard_paste"
